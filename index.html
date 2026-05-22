@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PENHBORMEY // Digital Architect</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;800&family=Orbitron:wght@700&family=JetBrains+Mono:wght@700&display=swap" rel="stylesheet">
+    <!-- Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <!-- Lottie -->
+    <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script>
+</head>
+<body class="cinematic-theme">
+    <!-- Background Elements -->
+    <div class="background-container">
+        <div class="grid-layer"></div>
+        <div class="blob-layer">
+            <div class="blob blob-cyan"></div>
+            <div class="blob blob-purple"></div>
+            <div class="blob blob-blue"></div>
+        </div>
+        <div class="mouse-follower" id="mouse-glow"></div>
+    </div>
+
+    <!-- HUD Navigation Sidebar -->
+    <nav class="hud-sidebar glass">
+        <div class="nav-brand">P</div>
+        <div class="nav-links">
+            <a href="#home" class="nav-item active" title="Core"><i data-lucide="home"></i></a>
+            <a href="#about" class="nav-item" title="Profile"><i data-lucide="user"></i></a>
+            <a href="#skills" class="nav-item" title="Expertise"><i data-lucide="cpu"></i></a>
+            <a href="#services" class="nav-item" title="Solutions"><i data-lucide="layers"></i></a>
+            <a href="#journey" class="nav-item" title="Journey"><i data-lucide="milestone"></i></a>
+            <a href="#projects" class="nav-item" title="Laboratory"><i data-lucide="layout-grid"></i></a>
+        </div>
+        <div class="nav-footer">
+            <div class="status-dot"></div>
+        </div>
+    </nav>
+
+    <!-- Top Status Bar -->
+    <header class="top-info">
+        <div class="system-status">
+            <span class="label">STATUS:</span> <span class="val accent">AVAILABLE FOR WORK</span>
+            <span class="divider">|</span>
+            <span class="label">TIME:</span> <span id="clock" class="val">00:00:00</span>
+        </div>
+        <div class="logo-text">PENHBORMEY<span>.</span></div>
+    </header>
+
+    <main class="content-wrapper">
+        <!-- Hero Section -->
+        <section id="home" class="hero-section">
+            <div class="hero-container container">
+                <div class="hero-content">
+                    <div class="tags reveal">
+                        <span class="tag glass">Digital Architect</span>
+                        <span class="tag glass">Bot Creator</span>
+                    </div>
+                    <h2 class="pre-title reveal">HELLO I AM</h2>
+                    <h1 class="main-title reveal">
+                        PENHBORMEY 
+                        <span class="sub-title">Management Information System</span>
+                    </h1>
+                    <p class="hero-desc reveal">Crafting high-performance digital ecosystems through code, design, and artificial intelligence.</p>
+                    <div class="hero-actions reveal">
+                        <a href="https://t.me/ShennCelest" class="btn primary-btn" target="_blank">Hire Me <i data-lucide="send"></i></a>
+                        <a href="#projects" class="btn secondary-btn glass">See My Works <i data-lucide="eye"></i></a>
+                    </div>
+                </div>
+                <div class="profile-wrapper reveal">
+                    <div class="profile-glow"></div>
+                    <div class="avatar-box glass">
+                        <img src="C:\Users\ASUS\orbital-portfolio\6242300696757734479_99.jpg" alt="PenhBormey" class="profile-img protect-image">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about-section">
+            <div class="container">
+                <div class="section-header reveal">
+                    <span class="section-tag">PROFILE</span>
+                    <h2 class="section-title">The Architect</h2>
+                </div>
+                <div class="about-grid">
+                    <div class="card glass reveal">
+                        <p>I specialize in bridging the gap between deep technical logic and high-end visual aesthetics. My journey started with building simple bots and has evolved into designing complex architectures.</p>
+                        <div class="stats-row">
+                            <div class="stat-item">
+                                <span class="stat-num">45+</span>
+                                <span class="stat-label">Projects</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-num">12</span>
+                                <span class="stat-label">AI Systems</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card glass reveal">
+                        <span class="section-tag">CONNECT</span>
+                        <div class="social-matrix">
+                            <a href="https://www.facebook.com/JaxFrez" class="platform-link glass facebook" target="_blank"><i data-lucide="facebook"></i> Facebook</a>
+                            <a href="https://t.me/ShennCelest" class="platform-link glass telegram" target="_blank"><i data-lucide="send"></i> Telegram</a>
+                            <a href="https://www.instagram.com/jaxfrez" class="platform-link glass instagram" target="_blank"><i data-lucide="instagram"></i> Instagram</a>
+                            <a href="https://discord.com/users/jaxfrez" class="platform-link glass discord" target="_blank"><i data-lucide="message-square"></i> Discord</a>
+                            <a href="https://github.com/JaxFrez" class="platform-link glass github" target="_blank"><i data-lucide="github"></i> GitHub</a>
+                            <a href="mailto:pichpenhbormey383@gmail.com" class="platform-link glass email"><i data-lucide="mail"></i> Email</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Expertise Section -->
+        <section id="skills" class="skills-section">
+            <div class="container">
+                <div class="section-header reveal">
+                    <span class="section-tag">EXPERTISE</span>
+                    <h2 class="section-title">Technical Skills</h2>
+                </div>
+                <div class="skills-grid">
+                    <div class="skill-card glass reveal">
+                        <div class="skill-info">
+                            <span>💻 Frontend Development</span>
+                            <span>95%</span>
+                        </div>
+                        <div class="progress-track"><div class="progress-fill" style="--w: 95%;"></div></div>
+                        <p class="skill-desc">Building fast, responsive, and scalable web interfaces using modern frameworks.</p>
+                    </div>
+                    <div class="skill-card glass reveal">
+                        <div class="skill-info">
+                            <span>🎨 UI / UX Design</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="progress-track"><div class="progress-fill" style="--w: 90%;"></div></div>
+                        <p class="skill-desc">Designing clean, modern, and user-focused interfaces with strong visual hierarchy.</p>
+                    </div>
+                    <div class="skill-card glass reveal">
+                        <div class="skill-info"><span>🤖 AI & Bot Development</span><span>85%</span></div>
+                        <div class="progress-track"><div class="progress-fill" style="--w: 85%;"></div></div>
+                        <p class="skill-desc">Developing smart bots and automation systems with API and AI integrations.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="services-section">
+            <div class="container">
+                <div class="section-header reveal">
+                    <span class="section-tag">OFFERING</span>
+                    <h2 class="section-title">Professional Services</h2>
+                </div>
+                
+                <div class="services-grid reveal">
+                    <div class="service-card glass">
+                        <i data-lucide="layout"></i>
+                        <h4>Website Development</h4>
+                        <p>Modern responsive websites with high performance, clean architecture, and futuristic glassmorphism design.</p>
+                    </div>
+                    <div class="service-card glass">
+                        <i data-lucide="cpu"></i>
+                        <h4>AI Integration</h4>
+                        <p>Smart AI-powered systems integrated into websites, applications, and automation workflows.</p>
+                    </div>
+                    <div class="service-card glass">
+                        <i data-lucide="bot"></i>
+                        <h4>Discord & Automation Bots</h4>
+                        <p>Advanced Discord bots and automation systems for communities, businesses, and digital management.</p>
+                    </div>
+                    <div class="service-card glass">
+                        <i data-lucide="briefcase"></i>
+                        <h4>Portfolio & Business Websites</h4>
+                        <p>Professional portfolio and business platforms designed for branding, engagement, and growth.</p>
+                    </div>
+                    <div class="service-card glass">
+                        <i data-lucide="palette"></i>
+                        <h4>UI/UX Design</h4>
+                        <p>Clean modern interfaces focused on immersive user experience, usability, and visual impact.</p>
+                    </div>
+                    <div class="service-card glass">
+                        <i data-lucide="server"></i>
+                        <h4>Digital System Architecture</h4>
+                        <p>Scalable digital infrastructures engineered for performance, security, and future expansion.</p>
+                    </div>
+                    <div class="service-card glass">
+                        <i data-lucide="zap"></i>
+                        <h4>Performance Optimization</h4>
+                        <p>Speed optimization, responsive performance, database efficiency, and scalable system improvements.</p>
+                    </div>
+                </div>
+
+                <div class="section-header reveal" style="margin-top: 100px;">
+                    <span class="section-tag">SPECIALIZED</span>
+                    <h2 class="section-title">Telegram Bot Services</h2>
+                </div>
+
+                <div class="services-grid mini reveal">
+                    <div class="service-card glass">
+                        <h4>AI Telegram Bots</h4>
+                        <p>Intelligent AI-powered Telegram bots with smart conversations and automation features.</p>
+                    </div>
+                    <div class="service-card glass">
+                        <h4>Auto Reply Systems</h4>
+                        <p>Automated response systems for support, engagement, and instant communication.</p>
+                    </div>
+                    <div class="service-card glass">
+                        <h4>Moderation Bots</h4>
+                        <p>Powerful moderation systems for managing communities, users, spam, and security.</p>
+                    </div>
+                    <div class="service-card glass">
+                        <h4>Payment & KHQR Bots</h4>
+                        <p>Secure payment automation with KHQR integration and transaction management systems.</p>
+                    </div>
+                    <div class="service-card glass">
+                        <h4>Notification Systems</h4>
+                        <p>Real-time alert and notification bots for updates, monitoring, and announcements.</p>
+                    </div>
+                    <div class="service-card glass">
+                        <h4>Customer Support Bots</h4>
+                        <p>Smart support assistants designed for customer interaction and automated help systems.</p>
+                    </div>
+                    <div class="service-card glass">
+                        <h4>File & Media Management Bots</h4>
+                        <p>Automated systems for handling files, media storage, downloads, and organization.</p>
+                    </div>
+                    <div class="service-card glass">
+                        <h4>API Integrated Bots</h4>
+                        <p>Custom Telegram bots connected with APIs, databases, cloud systems, and third-party services.</p>
+                    </div>
+                </div>
+
+                <div class="about-grid" style="margin-top: 100px;">
+                    <div class="card glass reveal">
+                        <span class="section-tag">MY FOCUS</span>
+                        <h3 style="font-size: 1.5rem; margin-bottom: 20px;">Intelligent & Powerful Systems</h3>
+                        <p>My focus is combining clean architecture, speed, security, and futuristic design to create systems and bots that are reliable, scalable, intelligent, and powerful.</p>
+                    </div>
+                    <div class="card glass reveal">
+                        <span class="section-tag">FEATURES I BUILD</span>
+                        <div class="features-grid">
+                            <div class="feature-item">✔ AI Chat Integration</div>
+                            <div class="feature-item">✔ Admin Control Panels</div>
+                            <div class="feature-item">✔ User Verification Systems</div>
+                            <div class="feature-item">✔ Database Integration</div>
+                            <div class="feature-item">✔ Real-Time Notifications</div>
+                            <div class="feature-item">✔ Automation Workflows</div>
+                            <div class="feature-item">✔ Multi-Language Support</div>
+                            <div class="feature-item">✔ Secure Authentication</div>
+                            <div class="feature-item">✔ Fast Cloud Hosting</div>
+                            <div class="feature-item">✔ Modern UI & Commands</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="section-header reveal" style="margin-top: 100px;">
+                    <span class="section-tag">STACK</span>
+                    <h2 class="section-title">Technologies</h2>
+                </div>
+                <div class="tech-stack reveal">
+                    <span class="tech-badge glass">Python</span>
+                    <span class="tech-badge glass">Node.js</span>
+                    <span class="tech-badge glass">Telegram Bot API</span>
+                    <span class="tech-badge glass">Firebase</span>
+                    <span class="tech-badge glass">MongoDB</span>
+                    <span class="tech-badge glass">SQL Databases</span>
+                    <span class="tech-badge glass">Artificial Intelligence</span>
+                    <span class="tech-badge glass">Cloud Systems</span>
+                    <span class="tech-badge glass">WebSocket Systems</span>
+                    <span class="tech-badge glass">REST APIs</span>
+                    <span class="tech-badge glass">Frontend & Backend Development</span>
+                    <span class="tech-badge glass">Automation Frameworks</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Journey Section -->
+        <section id="journey" class="journey-section">
+            <div class="container">
+                <div class="section-header reveal">
+                    <span class="section-tag">HISTORY</span>
+                    <h2 class="section-title">My Journey</h2>
+                </div>
+                <div class="journey-container">
+                    <div class="journey-line"></div>
+                    <div class="journey-item reveal">
+                        <div class="journey-dot"></div>
+                        <div class="journey-date">2023</div>
+                        <div class="journey-box glass">
+                            <h4>Freelance Architect</h4>
+                            <p>Custom automated bots and dashboards.</p>
+                        </div>
+                    </div>
+                    <div class="journey-item reveal">
+                        <div class="journey-dot"></div>
+                        <div class="journey-date">2024</div>
+                        <div class="journey-box glass">
+                            <h4>AI Systems Specialist</h4>
+                            <p>Neural network integration.</p>
+                        </div>
+                    </div>
+                    <div class="journey-item reveal">
+                        <div class="journey-dot"></div>
+                        <div class="journey-date">2025</div>
+                        <div class="journey-box glass">
+                            <h4>Senior Digital Lead</h4>
+                            <p>Scalable ecosystems and immersive 3D.</p>
+                        </div>
+                    </div>
+                    <div class="journey-item reveal infinity">
+                        <div class="journey-dot"></div>
+                        <div class="journey-date">2026+</div>
+                        <div class="journey-box glass">
+                            <h4>The Infinity Phase</h4>
+                            <p>Autonomous digital realities.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio Section -->
+        <section id="projects" class="projects-section">
+            <div class="container">
+                <div class="section-header reveal">
+                    <span class="section-tag">PORTFOLIO</span>
+                    <h2 class="section-title">Digital Laboratory</h2>
+                </div>
+                <div class="projects-grid">
+                    <div class="work-card glass reveal">
+                        <div class="work-img">
+                            <dotlottie-player src="error-404.lottie" background="transparent" speed="1" style="width: 100%; height: 250px;" loop autoplay></dotlottie-player>
+                            <div class="img-overlay glass">⚠️ COMING SOON</div>
+                        </div>
+                        <div class="work-info">
+                            <h4>Coming Soon</h4>
+                            <div class="p-tags">
+                                <span class="tag glass">No Update</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="work-card glass reveal">
+                        <div class="work-img">
+                            <dotlottie-player src="error-404-alt.lottie" background="transparent" speed="1" style="width: 100%; height: 250px;" loop autoplay></dotlottie-player>
+                            <div class="img-overlay glass">⚠️ COMING SOON</div>
+                        </div>
+                        <div class="work-info">
+                            <h4>Coming Soon</h4>
+                            <div class="p-tags">
+                                <span class="tag glass">No Update</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <p class="reveal">© 2026 // PENHBORMEY.ARCHITECT // DESIGNED FOR THE FUTURE</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>lucide.createIcons();</script>
+</body>
+</html>
