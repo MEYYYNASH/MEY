@@ -1033,6 +1033,41 @@ body::after {
     color: var(--color-text-bright);
 }
 
+div.contact-channel-card {
+    cursor: default;
+}
+
+.email-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 8px;
+    width: 100%;
+}
+
+.email-pick-btn {
+    display: flex;
+    align-items: center;
+    padding: 10px 14px;
+    background: rgba(255, 255, 255, 0.02);
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    border-radius: 8px;
+    color: var(--color-text-main);
+    font-size: 0.85rem;
+    font-weight: 600;
+    transition: var(--transition-fast);
+    text-decoration: none;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.02);
+    cursor: pointer;
+}
+
+.email-pick-btn:hover {
+    background: rgba(59, 130, 246, 0.06);
+    border-color: rgba(59, 130, 246, 0.2);
+    color: var(--color-blue-light);
+    transform: translateY(-1px);
+}
+
 .contact-form-container {
     padding: 30px;
 }
