@@ -1420,6 +1420,15 @@ div.contact-channel-card {
         padding: 6px 0;
     }
 
+    .about-grid {
+        grid-template-columns: 1fr;
+        gap: 24px;
+    }
+    
+    .about-text-card {
+        padding: 20px;
+    }
+
     .mobile-toggle {
         display: none !important; /* Move navigation to mobile-bottom-nav */
     }
@@ -1558,7 +1567,20 @@ div.contact-channel-card {
     }
     
     .about-stats {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr;
+        gap: 12px;
+    }
+
+    .stat-card {
+        padding: 16px 10px;
+    }
+    
+    .stat-num {
+        font-size: 1.65rem;
+    }
+    
+    .stat-label {
+        font-size: 0.68rem;
     }
 
     .mockup-sidebar {
